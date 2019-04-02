@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d30e1c-a6d8-42c3-bad8-fe6e29c2451b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThemePark/ITicketed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThemePark/ISecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThemePark/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemePark/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/RollerCoasterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/RollerCoasterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Attractions/RollerCoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attractions/RollerCoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RollerCoasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RollerCoasterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,9 +27,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Attractions/RollerCoaster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#189#190#0" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
               </folding>
@@ -37,11 +38,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RollerCoasterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark/ISecurity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -64,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark/Visitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="232">
               <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="e#359#360#0" expanded="true" />
@@ -84,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/VisitorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+            <state relative-caret-position="382">
+              <caret line="46" lean-forward="true" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
@@ -130,16 +145,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Attraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Attractions/Attraction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Attractions/RollerCoaster.java" />
-        <option value="$PROJECT_DIR$/src/test/java/VisitorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThemePark/ITicketed.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThemePark/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/VisitorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThemePark/ISecurity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Attractions/RollerCoaster.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RollerCoasterTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="296" />
-    <option name="y" value="25" />
+    <option name="y" value="23" />
     <option name="width" value="1427" />
     <option name="height" value="777" />
   </component>
@@ -212,7 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554228493484" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554230116129" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -226,7 +242,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RollerCoasterTest">
+    <configuration name="RollerCoasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.codeclan.ThemePark.ThemePark.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RollerCoasterTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.ThemePark.ThemePark.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -237,6 +261,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RollerCoasterTest" />
         <item itemvalue="JUnit.VisitorTest" />
       </list>
     </recent_temporary>
@@ -255,27 +280,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VisitorTest - 2019.04.02 at 18h 37m 16s.xml">
-      <configuration name="VisitorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VisitorTest - 2019.04.02 at 18h 37m 59s.xml">
-      <configuration name="VisitorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VisitorTest - 2019.04.02 at 18h 53m 40s.xml">
-      <configuration name="VisitorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VisitorTest - 2019.04.02 at 18h 54m 24s.xml">
-      <configuration name="VisitorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VisitorTest - 2019.04.02 at 18h 55m 08s.xml">
-      <configuration name="VisitorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VisitorTest - 2019.04.02 at 18h 55m 16s.xml">
-      <configuration name="VisitorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VisitorTest - 2019.04.02 at 18h 55m 55s.xml">
-      <configuration name="VisitorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VisitorTest - 2019.04.02 at 18h 57m 21s.xml">
       <configuration name="VisitorTest" configurationId="JUnit" />
     </history-entry>
@@ -285,9 +289,30 @@
     <history-entry file="VisitorTest - 2019.04.02 at 18h 58m 19s.xml">
       <configuration name="VisitorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VisitorTest - 2019.04.02 at 19h 07m 30s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.04.02 at 19h 08m 15s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RollerCoasterTest - 2019.04.02 at 19h 19m 08s.xml">
+      <configuration name="RollerCoasterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RollerCoasterTest - 2019.04.02 at 19h 29m 56s.xml">
+      <configuration name="RollerCoasterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RollerCoasterTest - 2019.04.02 at 19h 32m 00s.xml">
+      <configuration name="RollerCoasterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RollerCoasterTest - 2019.04.02 at 19h 32m 40s.xml">
+      <configuration name="RollerCoasterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RollerCoasterTest - 2019.04.02 at 19h 33m 23s.xml">
+      <configuration name="RollerCoasterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="296" y="25" width="1427" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1427" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -295,7 +320,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981949" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -304,7 +329,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -335,21 +360,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Attractions/RollerCoaster.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="232">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RollerCoasterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark/ITicketed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        <state relative-caret-position="45">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -362,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/VisitorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+        <state relative-caret-position="382">
+          <caret line="46" lean-forward="true" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
@@ -380,24 +409,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark/ITicketed.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark/ISecurity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThemePark/Visitor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Attractions/RollerCoaster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RollerCoasterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
           </folding>
         </state>
       </provider>
