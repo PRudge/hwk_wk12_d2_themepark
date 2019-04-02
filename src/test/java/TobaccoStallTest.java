@@ -38,4 +38,16 @@ public class TobaccoStallTest {
         assertEquals(6.60, tobaccoStall.priceForVisitor(visitor), .01);
 
     }
+
+    @Test
+    public void isAllowedAVisitorYes(){
+        visitor = new Visitor(34, 1.54, 15);
+        assertEquals(true, tobaccoStall.IsAllowed(visitor));
+    }
+
+    @Test
+    public void isAllowedAVisitorNoTooYoung(){
+        visitor = new Visitor(14, 1.54, 15);
+        assertEquals(false, tobaccoStall.IsAllowed(visitor));
+    }
 }
