@@ -2,10 +2,10 @@ package Attractions;
 
 import Attractions.Attraction;
 import ThemePark.Visitor;
-import ThemePark.IReview;
+import ThemePark.ITicketed;
 import ThemePark.ISecurity;
 
-public class RollerCoaster extends Attraction implements IReview, ISecurity {
+public class RollerCoaster extends Attraction implements ITicketed, ISecurity {
 
     public RollerCoaster(String name){
         super(name);
@@ -16,6 +16,13 @@ public class RollerCoaster extends Attraction implements IReview, ISecurity {
             return true;
         }
         return false;
+    }
+
+    public double priceForVisitor(Visitor visitor){
+        if (visitor.getHeightInMeters() > 2.00){
+            return visitor.priceForVisitor(visitor) * 2;
+        }
+        return visitor.priceForVisitor(visitor);
     }
 
 }
