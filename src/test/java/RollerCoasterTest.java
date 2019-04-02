@@ -41,14 +41,14 @@ public class RollerCoasterTest {
     @Test
     public void getPriceForVisitor(){
         visitor = new Visitor(34,1.30, 15);
-        assertEquals(10.00, visitor.priceForVisitor(visitor), 2);
+        assertEquals(8.40, rollerCoaster.priceForVisitor(visitor), .01);
 
     }
 
     @Test
     public void doublesFeeForOver2m(){
         visitor = new Visitor(34,2.30, 15);
-        assertEquals(20.00, rollerCoaster.priceForVisitor(visitor), 2);
+        assertEquals(20.00, rollerCoaster.priceForVisitor(visitor), .01);
     }
 }
 

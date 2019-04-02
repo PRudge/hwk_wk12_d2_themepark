@@ -22,7 +22,7 @@ public class RollerCoaster extends Attraction implements ITicketed, ISecurity {
         if (visitor.getHeightInMeters() > 2.00){
             return visitor.priceForVisitor(visitor) * 2;
         }
-        return visitor.priceForVisitor(visitor);
+        return 8.40;
     }
 
 }

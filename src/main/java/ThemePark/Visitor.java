@@ -34,5 +34,7 @@ public class Visitor implements ITicketed{
         }
         return this.price;
     }
+
+
 }
 
